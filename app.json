@@ -1,0 +1,51 @@
+{
+    "name": "سورس ميوزك جليثون",
+    "description": "سورس ميوزك جليثون 2021",
+    "logo": "https://telegra.ph/file/03d6aa5268bf84f4560ae.jpg",
+    "keywords": [
+        "Telegram",
+        "MusicPlayer",
+        "jmthon",
+        "VideoPlayer"
+    ],
+    "repository": "https://github.com/JMTHON-AR/MUSIC",
+    "env": {
+        "SESSION": {
+            "description": "هنا ضع كود البايروكرام",
+            "required": true
+        },
+        "API_ID": {
+            "description": "هنا ضع الايبب ايدي",
+            "required": true
+        },
+        "HNDLR": {
+            "description": " يفضل تركها كما هي",
+            "required": false,
+            "value": "!"
+        },
+        "API_HASH": {
+            "description": "هنا ضع الايبي هاش",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "هنا ضع ايدي حسابك كمطور للبوت بمكنك وضع اكثر من شخص بوضع ايدي المستخدم",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
