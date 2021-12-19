@@ -13,7 +13,7 @@ from pytgcalls.types.input_stream.quality import (
 from youtubesearchpython import VideosSearch
 
 from config import HNDLR, bot, call_py
-from Musicjmthon.helpers.queues import QUEUE, add_to_queue, get_queue
+from Musicjalithon.helpers.queues import QUEUE, add_to_queue, get_queue
 
 from io import BytesIO
 from traceback import format_exc
@@ -24,7 +24,7 @@ from pyrogram.types import Message
 from Python_ARQ import ARQ
 
 from config import HNDLR
-from Musicjmthon.helpers.merrors import capture_err
+from Musicjalithon.helpers.merrors import capture_err
 
 ARQ_API_KEY = "QFOTZM-GSZUFY-CHGHRX-TDEHOZ-ARQ"
 aiohttpsession = aiohttp.ClientSession()
