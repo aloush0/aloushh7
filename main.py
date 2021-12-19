@@ -3,7 +3,7 @@ import asyncio
 from pytgcalls import idle
 
 from config import call_py
-from Musicjmthon.التشغيل import arq
+from Musicjalithon.التشغيل import arq
 
 
 async def main():
