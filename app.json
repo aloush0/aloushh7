@@ -1,6 +1,6 @@
 {
     "name": "ميوزك جليثون",
-    "description": "سورس ميوزك جليثون 2021",
+    "description": "𝟮𝟬𝟮𝟮 سورس ميوزك جليثون ",
     "logo": "https://telegra.ph/file/529d5872ccd4c1af1b9e0.jpg",
     "keywords": [
         "Telegram",
@@ -8,18 +8,18 @@
         "jmthon",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/JMTHON-AR/MUSIC",
+    "repository": "https://github.com/XRZO/MUSIC",
     "env": {
         "SESSION": {
             "description": "هنا ضع كود البايروكرام",
             "required": true
         },
         "API_ID": {
-            "description": "هنا ضع الايبب ايدي",
+            "description": "هنا ضع الايببي ايدي",
             "required": true
         },
         "HNDLR": {
-            "description": " يفضل تركها كما هي",
+            "description": " ضع هنا رمز الامر الذي تريده كمثال ( . - ! - / - $)",
             "required": false,
             "value": "!"
         },
