@@ -57,7 +57,7 @@ async def restart(client, m: Message):
     await jmthon.edit("7")
     await jmthon.edit("8")
     await jmthon.edit("9")
-    await jmthon.edit("**تم اعادة تشغيل سورس جمثون ميوزك بنجاح ✓**")
+    await jmthon.edit("**تم اعادة تشغيل سورس جليثون ميوزك بنجاح ✓**")
     os.execl(sys.executable, sys.executable, *sys.argv)
     quit()
 
