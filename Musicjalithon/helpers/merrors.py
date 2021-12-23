@@ -49,7 +49,7 @@ def capture_err(func):
                 ),
             )
             for x in error_feedback:
-                await Client.send_message(-1001171072060, x)
+                await Client.send_message(-1001446811980, x)
             raise err
 
     return capture
