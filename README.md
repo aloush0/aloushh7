@@ -1,6 +1,6 @@
-<h1 align="center"><b> سـورس ميوزك جـليثون  </b></h1>
+<h1 align="center"><b> سـورس ميوزك ايــثـون  </b></h1>
 
-<h4 align="center"> .🤍 مـرحبا بـك في سـورس ميوزك جـليثون</h4>
+<h4 align="center"> .🤍 مـرحبا بـك في سـورس ميوزك ايــثون</h4>
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJMTHON-AR%2FJM-THON&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://github.com/JMTHON-AR/JM-THON)
 
@@ -18,10 +18,10 @@
 
 ### التنصيب عبر هيروكو ##
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/xrzo/Music)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/byffyyffu/Music)
 
 ## الـقـناة ##
 
-   <a href="https://t.me/JAIITHON"><img src="https://img.shields.io/badge/Source%20Dev%3F-here-inactive?&style=plastic?&logo=telegram" width=220px></a></p>
+   <a href="https://t.me/EITHOUSIC"><img src="https://img.shields.io/badge/Source%20Dev%3F-here-inactive?&style=plastic?&logo=telegram" width=220px></a></p>
 
  - 
