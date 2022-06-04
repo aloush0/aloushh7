@@ -104,7 +104,7 @@ async def repo(client, m: Message):
 
 ⚒️ لعرض اوامر السورس ارسل  {HNDLR}الاوامر
 
-📚 • قناة ايثون  :  @EITHON
-• قناة ايثون ميوزك  @EITHOUSIC</b>
+📚 • قناة ايثون  :  @EITHON1
+• قناة ايثون ميوزك  @EITHMU</b>
 """
     await m.reply(REPZ, disable_web_page_preview=True)
