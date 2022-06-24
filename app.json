@@ -1,0 +1,51 @@
+{
+    "name": "ميوزك ايثون",
+    "description": "𝟮𝟬𝟮𝟮 سورس ميوزك ايثون ",
+    "logo": "https://telegra.ph/file/aa0ad3671257edd1ddace.jpg",
+    "keywords": [
+        "Telegram",
+        "MusicPlayer",
+        "jmthon",
+        "VideoPlayer"
+    ],
+    "repository": "https://github.com/byffyyffu/Music",
+    "env": {
+        "SESSION": {
+            "description": "هنا ضع كود البايروكرام",
+            "required": true
+        },
+        "API_ID": {
+            "description": "هنا ضع الايببي ايدي",
+            "required": true
+        },
+        "HNDLR": {
+            "description": " ضع هنا رمز الامر الذي تريده كمثال ( . - ! - / - $)",
+            "required": false,
+            "value": "!"
+        },
+        "API_HASH": {
+            "description": "هنا ضع الايبي هاش",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "هنا ضع ايدي حسابك كمطور للبوت بمكنك وضع اكثر من شخص بوضع ايدي المستخدم",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
