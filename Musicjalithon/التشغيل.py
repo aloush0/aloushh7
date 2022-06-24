@@ -128,7 +128,7 @@ async def play(client, m: Message):
     if replied:
         if replied.audio or replied.voice:
             await m.delete()
-            huehue = await replied.reply("**🔄 تتم تشغيل انتظر قليلا**")
+            huehue = await replied.reply("**اصبر شوية ويشتغل مح**")
             dl = await replied.download()
             link = replied.link
             if replied.audio:
@@ -173,14 +173,14 @@ async def play(client, m: Message):
 
     else:
         if len(m.command) < 2:
-            await m.reply("يجب عليك الرد على الاغنيه او وضع اسمها مع الامر")
+            await m.reply("اخوية خلي اسم الاغنية مع الامر")
         else:
             await m.delete()
-            huehue = await m.reply("🔎 جاري البحث الرجاء الانتظار ")
+            huehue = await m.reply("جاي ادور ع الاغنية ")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
-                await huehue.edit("- لم يتم العثور على شيء ")
+                await huehue.edit("- حبب مالكيت اغنية اسف ")
             else:
                 songname = search[0]
                 url = search[1]
